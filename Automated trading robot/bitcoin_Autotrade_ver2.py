@@ -117,7 +117,7 @@ def sell(bitbank):
 
 #メッセージを引数として渡し、その内容を通知する関数send_line_notifyを定義
 def send_line_notify(notification_message):
-    line_notify_token = 'bvPOlr0QNWhaXdzREjf3bvt4NL82A6AGJVUXLFMOBRC'
+    line_notify_token = 'line notify api keys'
     line_notify_api = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': f'Bearer {line_notify_token}'}
     data = {'message': f'{notification_message}'}
